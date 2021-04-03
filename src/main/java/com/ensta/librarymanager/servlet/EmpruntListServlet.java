@@ -23,7 +23,7 @@ public class EmpruntListServlet extends HttpServlet {
 
         try {
             List<Emprunt> emprunts = new ArrayList<Emprunt>();
-            if (show == "all") {
+            if (show != null && show.equals("all")) {
                 emprunts = empruntService.getList();
             } else {
                 emprunts = empruntService.getListCurrent();

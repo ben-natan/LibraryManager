@@ -28,7 +28,7 @@
                         <th>Titre</th>
                         <th>Auteur</th>
                         <th>Code ISBN 13</th>
-                        <th>D�tails</th>
+                        <th>Détails</th>
                     </tr>
                 </thead>
                 <tbody>
