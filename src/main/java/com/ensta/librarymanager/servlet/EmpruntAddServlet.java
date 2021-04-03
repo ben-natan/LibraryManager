@@ -1,7 +1,6 @@
 package com.ensta.librarymanager.servlet;
 
 import java.util.List;
-// import java.util.ArrayList;
 
 import java.io.*;
 import java.time.LocalDate;

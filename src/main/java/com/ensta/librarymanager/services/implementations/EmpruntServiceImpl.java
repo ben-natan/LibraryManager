@@ -74,7 +74,6 @@ public class EmpruntServiceImpl implements EmpruntService{
     }
 
 
-    // ID DE QUOI? --> ici id de emprunt
 	public void returnBook(int id) throws ServiceException {
        LocalDate date = LocalDate.now();
        try {
